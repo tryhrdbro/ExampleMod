@@ -9,15 +9,15 @@ powerProduction: 1.2
 consumes: {
   items: {
     items: [
-      copper/1
+      gold-powder/1
     ]
     optional: true
   }
 }
 requirements: [
-  metaglass/0
-  silicon/0
-  electrum/0
+  metaglass/80
+  silicon/40
+  electrum/30
 ]
 category: power
-research: power node
+research: silver-crucible
